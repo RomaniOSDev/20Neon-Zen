@@ -143,7 +143,7 @@ struct MainDashboardView: View {
     private func destinationView(for mode: SessionMode) -> some View {
         switch mode {
         case .particles:
-            AdvancedParticleSandboxView(sessionViewModel: sessionViewModel)
+            ParticleSandboxView(sessionViewModel: sessionViewModel)
         case .mandala:
             MandalaGeneratorView(sessionViewModel: sessionViewModel)
         case .breathing:

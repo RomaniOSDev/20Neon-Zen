@@ -14,10 +14,6 @@
 		741FCBF32EEB551E000199C7 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC52EEB551E000199C7 /* Particle.swift */; };
 		741FCBF42EEB551E000199C7 /* ZenSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC62EEB551E000199C7 /* ZenSession.swift */; };
 		741FCBF52EEB551E000199C7 /* NeonGlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC82EEB551E000199C7 /* NeonGlow.swift */; };
-		741FCBF62EEB551E000199C7 /* MetalParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCA2EEB551E000199C7 /* MetalParticleSystem.swift */; };
-		741FCBF72EEB551E000199C7 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCB2EEB551E000199C7 /* MetalRenderer.swift */; };
-		741FCBF82EEB551E000199C7 /* NeonShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCD2EEB551E000199C7 /* NeonShaders.metal */; };
-		741FCBF92EEB551E000199C7 /* ParticleCompute.metal in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCE2EEB551E000199C7 /* ParticleCompute.metal */; };
 		741FCBFA2EEB551E000199C7 /* BreathingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD02EEB551E000199C7 /* BreathingViewModel.swift */; };
 		741FCBFB2EEB551E000199C7 /* MandalaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD12EEB551E000199C7 /* MandalaViewModel.swift */; };
 		741FCBFC2EEB551E000199C7 /* ParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD22EEB551E000199C7 /* ParticleViewModel.swift */; };
@@ -25,13 +21,10 @@
 		741FCBFE2EEB551E000199C7 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD52EEB551E000199C7 /* CheckLink.swift */; };
 		741FCBFF2EEB551E000199C7 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD62EEB551E000199C7 /* InternetViewController.swift */; };
 		741FCC002EEB551E000199C7 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD72EEB551E000199C7 /* LoaderViewController.swift */; };
-		741FCC012EEB551E000199C7 /* AdvancedParticleSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD92EEB551E000199C7 /* AdvancedParticleSandboxView.swift */; };
 		741FCC022EEB551E000199C7 /* ASMRVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDA2EEB551E000199C7 /* ASMRVisualizerView.swift */; };
 		741FCC032EEB551E000199C7 /* BreathingGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDB2EEB551E000199C7 /* BreathingGuideView.swift */; };
 		741FCC042EEB551E000199C7 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDC2EEB551E000199C7 /* MainDashboardView.swift */; };
 		741FCC052EEB551E000199C7 /* MandalaGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDD2EEB551E000199C7 /* MandalaGeneratorView.swift */; };
-		741FCC062EEB551E000199C7 /* MetalEffectsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDE2EEB551E000199C7 /* MetalEffectsDemoView.swift */; };
-		741FCC072EEB551E000199C7 /* MultiTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDF2EEB551E000199C7 /* MultiTouchView.swift */; };
 		741FCC082EEB551E000199C7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE02EEB551E000199C7 /* OnboardingView.swift */; };
 		741FCC092EEB551E000199C7 /* ParticleSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE12EEB551E000199C7 /* ParticleSandboxView.swift */; };
 		741FCC0A2EEB551E000199C7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE22EEB551E000199C7 /* SettingsView.swift */; };
@@ -54,10 +47,6 @@
 		741FCBC52EEB551E000199C7 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		741FCBC62EEB551E000199C7 /* ZenSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenSession.swift; sourceTree = "<group>"; };
 		741FCBC82EEB551E000199C7 /* NeonGlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonGlow.swift; sourceTree = "<group>"; };
-		741FCBCA2EEB551E000199C7 /* MetalParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalParticleSystem.swift; sourceTree = "<group>"; };
-		741FCBCB2EEB551E000199C7 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
-		741FCBCD2EEB551E000199C7 /* NeonShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NeonShaders.metal; sourceTree = "<group>"; };
-		741FCBCE2EEB551E000199C7 /* ParticleCompute.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ParticleCompute.metal; sourceTree = "<group>"; };
 		741FCBD02EEB551E000199C7 /* BreathingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewModel.swift; sourceTree = "<group>"; };
 		741FCBD12EEB551E000199C7 /* MandalaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaViewModel.swift; sourceTree = "<group>"; };
 		741FCBD22EEB551E000199C7 /* ParticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleViewModel.swift; sourceTree = "<group>"; };
@@ -65,13 +54,10 @@
 		741FCBD52EEB551E000199C7 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
 		741FCBD62EEB551E000199C7 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		741FCBD72EEB551E000199C7 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
-		741FCBD92EEB551E000199C7 /* AdvancedParticleSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedParticleSandboxView.swift; sourceTree = "<group>"; };
 		741FCBDA2EEB551E000199C7 /* ASMRVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASMRVisualizerView.swift; sourceTree = "<group>"; };
 		741FCBDB2EEB551E000199C7 /* BreathingGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingGuideView.swift; sourceTree = "<group>"; };
 		741FCBDC2EEB551E000199C7 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
 		741FCBDD2EEB551E000199C7 /* MandalaGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaGeneratorView.swift; sourceTree = "<group>"; };
-		741FCBDE2EEB551E000199C7 /* MetalEffectsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalEffectsDemoView.swift; sourceTree = "<group>"; };
-		741FCBDF2EEB551E000199C7 /* MultiTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTouchView.swift; sourceTree = "<group>"; };
 		741FCBE02EEB551E000199C7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		741FCBE12EEB551E000199C7 /* ParticleSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSandboxView.swift; sourceTree = "<group>"; };
 		741FCBE22EEB551E000199C7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -126,24 +112,6 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
-		741FCBCC2EEB551E000199C7 /* Renderers */ = {
-			isa = PBXGroup;
-			children = (
-				741FCBCA2EEB551E000199C7 /* MetalParticleSystem.swift */,
-				741FCBCB2EEB551E000199C7 /* MetalRenderer.swift */,
-			);
-			path = Renderers;
-			sourceTree = "<group>";
-		};
-		741FCBCF2EEB551E000199C7 /* Shaders */ = {
-			isa = PBXGroup;
-			children = (
-				741FCBCD2EEB551E000199C7 /* NeonShaders.metal */,
-				741FCBCE2EEB551E000199C7 /* ParticleCompute.metal */,
-			);
-			path = Shaders;
-			sourceTree = "<group>";
-		};
 		741FCBD42EEB551E000199C7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,13 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				741FCBD82EEB551E000199C7 /* LoadingView */,
-				741FCBD92EEB551E000199C7 /* AdvancedParticleSandboxView.swift */,
 				741FCBDA2EEB551E000199C7 /* ASMRVisualizerView.swift */,
 				741FCBDB2EEB551E000199C7 /* BreathingGuideView.swift */,
 				741FCBDC2EEB551E000199C7 /* MainDashboardView.swift */,
 				741FCBDD2EEB551E000199C7 /* MandalaGeneratorView.swift */,
-				741FCBDE2EEB551E000199C7 /* MetalEffectsDemoView.swift */,
-				741FCBDF2EEB551E000199C7 /* MultiTouchView.swift */,
 				741FCBE02EEB551E000199C7 /* OnboardingView.swift */,
 				741FCBE12EEB551E000199C7 /* ParticleSandboxView.swift */,
 				741FCBE22EEB551E000199C7 /* SettingsView.swift */,
@@ -189,8 +154,6 @@
 				741FCBC12EEB551E000199C7 /* Extensions */,
 				741FCBC72EEB551E000199C7 /* Models */,
 				741FCBC92EEB551E000199C7 /* Modifiers */,
-				741FCBCC2EEB551E000199C7 /* Renderers */,
-				741FCBCF2EEB551E000199C7 /* Shaders */,
 				741FCBD42EEB551E000199C7 /* ViewModels */,
 				741FCBE32EEB551E000199C7 /* Views */,
 				741FCBE42EEB551E000199C7 /* AppDelegate.swift */,
@@ -344,10 +307,6 @@
 				741FCBF32EEB551E000199C7 /* Particle.swift in Sources */,
 				741FCBF42EEB551E000199C7 /* ZenSession.swift in Sources */,
 				741FCBF52EEB551E000199C7 /* NeonGlow.swift in Sources */,
-				741FCBF62EEB551E000199C7 /* MetalParticleSystem.swift in Sources */,
-				741FCBF72EEB551E000199C7 /* MetalRenderer.swift in Sources */,
-				741FCBF82EEB551E000199C7 /* NeonShaders.metal in Sources */,
-				741FCBF92EEB551E000199C7 /* ParticleCompute.metal in Sources */,
 				741FCBFA2EEB551E000199C7 /* BreathingViewModel.swift in Sources */,
 				741FCBFB2EEB551E000199C7 /* MandalaViewModel.swift in Sources */,
 				741FCBFC2EEB551E000199C7 /* ParticleViewModel.swift in Sources */,
@@ -355,13 +314,10 @@
 				741FCBFE2EEB551E000199C7 /* CheckLink.swift in Sources */,
 				741FCBFF2EEB551E000199C7 /* InternetViewController.swift in Sources */,
 				741FCC002EEB551E000199C7 /* LoaderViewController.swift in Sources */,
-				741FCC012EEB551E000199C7 /* AdvancedParticleSandboxView.swift in Sources */,
 				741FCC022EEB551E000199C7 /* ASMRVisualizerView.swift in Sources */,
 				741FCC032EEB551E000199C7 /* BreathingGuideView.swift in Sources */,
 				741FCC042EEB551E000199C7 /* MainDashboardView.swift in Sources */,
 				741FCC052EEB551E000199C7 /* MandalaGeneratorView.swift in Sources */,
-				741FCC062EEB551E000199C7 /* MetalEffectsDemoView.swift in Sources */,
-				741FCC072EEB551E000199C7 /* MultiTouchView.swift in Sources */,
 				741FCC082EEB551E000199C7 /* OnboardingView.swift in Sources */,
 				741FCC092EEB551E000199C7 /* ParticleSandboxView.swift in Sources */,
 				741FCC0A2EEB551E000199C7 /* SettingsView.swift in Sources */,

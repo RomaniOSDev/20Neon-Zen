@@ -12,7 +12,6 @@ struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var showingPolicy = false
     @State private var showingTerms = false
-    @State private var showingMetalDemo = false
     
     var body: some View {
         ZStack {
@@ -97,15 +96,6 @@ struct SettingsView: View {
                         SettingsSection(title: "Additional") {
                             VStack(spacing: 12) {
                                 SettingsRow(
-                                    icon: "sparkles",
-                                    title: "Metal Effects",
-                                    color: Color.neonGreen,
-                                    action: {
-                                        showingMetalDemo = true
-                                    }
-                                )
-                                
-                                SettingsRow(
                                     icon: "trash.fill",
                                     title: "Clear Data",
                                     color: Color.neonPink,
@@ -129,9 +119,6 @@ struct SettingsView: View {
                     .padding(.bottom, 40)
                 }
             }
-        }
-        .fullScreenCover(isPresented: $showingMetalDemo) {
-            MetalEffectsDemoView()
         }
     }
     
