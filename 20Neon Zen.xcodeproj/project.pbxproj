@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741FCBEF2EEB551E000199C7 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC02EEB551E000199C7 /* Color+Hex.swift */; };
+		741FCBF02EEB551E000199C7 /* ASMRTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC22EEB551E000199C7 /* ASMRTrigger.swift */; };
+		741FCBF12EEB551E000199C7 /* BreathingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC32EEB551E000199C7 /* BreathingExercise.swift */; };
+		741FCBF22EEB551E000199C7 /* MandalaPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC42EEB551E000199C7 /* MandalaPattern.swift */; };
+		741FCBF32EEB551E000199C7 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC52EEB551E000199C7 /* Particle.swift */; };
+		741FCBF42EEB551E000199C7 /* ZenSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC62EEB551E000199C7 /* ZenSession.swift */; };
+		741FCBF52EEB551E000199C7 /* NeonGlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBC82EEB551E000199C7 /* NeonGlow.swift */; };
+		741FCBF62EEB551E000199C7 /* MetalParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCA2EEB551E000199C7 /* MetalParticleSystem.swift */; };
+		741FCBF72EEB551E000199C7 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCB2EEB551E000199C7 /* MetalRenderer.swift */; };
+		741FCBF82EEB551E000199C7 /* NeonShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCD2EEB551E000199C7 /* NeonShaders.metal */; };
+		741FCBF92EEB551E000199C7 /* ParticleCompute.metal in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBCE2EEB551E000199C7 /* ParticleCompute.metal */; };
+		741FCBFA2EEB551E000199C7 /* BreathingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD02EEB551E000199C7 /* BreathingViewModel.swift */; };
+		741FCBFB2EEB551E000199C7 /* MandalaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD12EEB551E000199C7 /* MandalaViewModel.swift */; };
+		741FCBFC2EEB551E000199C7 /* ParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD22EEB551E000199C7 /* ParticleViewModel.swift */; };
+		741FCBFD2EEB551E000199C7 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD32EEB551E000199C7 /* SessionViewModel.swift */; };
+		741FCBFE2EEB551E000199C7 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD52EEB551E000199C7 /* CheckLink.swift */; };
+		741FCBFF2EEB551E000199C7 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD62EEB551E000199C7 /* InternetViewController.swift */; };
+		741FCC002EEB551E000199C7 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD72EEB551E000199C7 /* LoaderViewController.swift */; };
+		741FCC012EEB551E000199C7 /* AdvancedParticleSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBD92EEB551E000199C7 /* AdvancedParticleSandboxView.swift */; };
+		741FCC022EEB551E000199C7 /* ASMRVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDA2EEB551E000199C7 /* ASMRVisualizerView.swift */; };
+		741FCC032EEB551E000199C7 /* BreathingGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDB2EEB551E000199C7 /* BreathingGuideView.swift */; };
+		741FCC042EEB551E000199C7 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDC2EEB551E000199C7 /* MainDashboardView.swift */; };
+		741FCC052EEB551E000199C7 /* MandalaGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDD2EEB551E000199C7 /* MandalaGeneratorView.swift */; };
+		741FCC062EEB551E000199C7 /* MetalEffectsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDE2EEB551E000199C7 /* MetalEffectsDemoView.swift */; };
+		741FCC072EEB551E000199C7 /* MultiTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBDF2EEB551E000199C7 /* MultiTouchView.swift */; };
+		741FCC082EEB551E000199C7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE02EEB551E000199C7 /* OnboardingView.swift */; };
+		741FCC092EEB551E000199C7 /* ParticleSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE12EEB551E000199C7 /* ParticleSandboxView.swift */; };
+		741FCC0A2EEB551E000199C7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE22EEB551E000199C7 /* SettingsView.swift */; };
+		741FCC0B2EEB551E000199C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE42EEB551E000199C7 /* AppDelegate.swift */; };
+		741FCC0C2EEB551E000199C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBE62EEB551E000199C7 /* ContentView.swift */; };
+		741FCC0D2EEB551E000199C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBEC2EEB551E000199C7 /* SceneDelegate.swift */; };
+		741FCC0E2EEB551E000199C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FCBED2EEB551E000199C7 /* ViewController.swift */; };
+		741FCC0F2EEB551E000199C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741FCBE52EEB551E000199C7 /* Assets.xcassets */; };
+		741FCC112EEB551E000199C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741FCBE92EEB551E000199C7 /* LaunchScreen.storyboard */; };
+		741FCC122EEB551E000199C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741FCBEB2EEB551E000199C7 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BECE0C3926042F4881CA463 /* Pods-20Neon Zen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20Neon Zen.release.xcconfig"; path = "Target Support Files/Pods-20Neon Zen/Pods-20Neon Zen.release.xcconfig"; sourceTree = "<group>"; };
+		57981292A7517BDBFEA2E2B4 /* Pods-20Neon Zen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20Neon Zen.debug.xcconfig"; path = "Target Support Files/Pods-20Neon Zen/Pods-20Neon Zen.debug.xcconfig"; sourceTree = "<group>"; };
+		741FCBC02EEB551E000199C7 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		741FCBC22EEB551E000199C7 /* ASMRTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASMRTrigger.swift; sourceTree = "<group>"; };
+		741FCBC32EEB551E000199C7 /* BreathingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExercise.swift; sourceTree = "<group>"; };
+		741FCBC42EEB551E000199C7 /* MandalaPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaPattern.swift; sourceTree = "<group>"; };
+		741FCBC52EEB551E000199C7 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		741FCBC62EEB551E000199C7 /* ZenSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenSession.swift; sourceTree = "<group>"; };
+		741FCBC82EEB551E000199C7 /* NeonGlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonGlow.swift; sourceTree = "<group>"; };
+		741FCBCA2EEB551E000199C7 /* MetalParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalParticleSystem.swift; sourceTree = "<group>"; };
+		741FCBCB2EEB551E000199C7 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		741FCBCD2EEB551E000199C7 /* NeonShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NeonShaders.metal; sourceTree = "<group>"; };
+		741FCBCE2EEB551E000199C7 /* ParticleCompute.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ParticleCompute.metal; sourceTree = "<group>"; };
+		741FCBD02EEB551E000199C7 /* BreathingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewModel.swift; sourceTree = "<group>"; };
+		741FCBD12EEB551E000199C7 /* MandalaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaViewModel.swift; sourceTree = "<group>"; };
+		741FCBD22EEB551E000199C7 /* ParticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleViewModel.swift; sourceTree = "<group>"; };
+		741FCBD32EEB551E000199C7 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		741FCBD52EEB551E000199C7 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		741FCBD62EEB551E000199C7 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		741FCBD72EEB551E000199C7 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		741FCBD92EEB551E000199C7 /* AdvancedParticleSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedParticleSandboxView.swift; sourceTree = "<group>"; };
+		741FCBDA2EEB551E000199C7 /* ASMRVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASMRVisualizerView.swift; sourceTree = "<group>"; };
+		741FCBDB2EEB551E000199C7 /* BreathingGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingGuideView.swift; sourceTree = "<group>"; };
+		741FCBDC2EEB551E000199C7 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		741FCBDD2EEB551E000199C7 /* MandalaGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaGeneratorView.swift; sourceTree = "<group>"; };
+		741FCBDE2EEB551E000199C7 /* MetalEffectsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalEffectsDemoView.swift; sourceTree = "<group>"; };
+		741FCBDF2EEB551E000199C7 /* MultiTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTouchView.swift; sourceTree = "<group>"; };
+		741FCBE02EEB551E000199C7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		741FCBE12EEB551E000199C7 /* ParticleSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSandboxView.swift; sourceTree = "<group>"; };
+		741FCBE22EEB551E000199C7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		741FCBE42EEB551E000199C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		741FCBE52EEB551E000199C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741FCBE62EEB551E000199C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		741FCBE72EEB551E000199C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741FCBE82EEB551E000199C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741FCBEA2EEB551E000199C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741FCBEC2EEB551E000199C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		741FCBED2EEB551E000199C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74CAB0FB2EEAA8B60022F17B /* 20Neon Zen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20Neon Zen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E91C8148D7DB805EF9AFB9 /* Pods_20Neon_Zen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20Neon_Zen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74CAB0F82EEAA8B60022F17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741FCBC12EEB551E000199C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBC02EEB551E000199C7 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		741FCBC72EEB551E000199C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBC22EEB551E000199C7 /* ASMRTrigger.swift */,
+				741FCBC32EEB551E000199C7 /* BreathingExercise.swift */,
+				741FCBC42EEB551E000199C7 /* MandalaPattern.swift */,
+				741FCBC52EEB551E000199C7 /* Particle.swift */,
+				741FCBC62EEB551E000199C7 /* ZenSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		741FCBC92EEB551E000199C7 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBC82EEB551E000199C7 /* NeonGlow.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		741FCBCC2EEB551E000199C7 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBCA2EEB551E000199C7 /* MetalParticleSystem.swift */,
+				741FCBCB2EEB551E000199C7 /* MetalRenderer.swift */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+		741FCBCF2EEB551E000199C7 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBCD2EEB551E000199C7 /* NeonShaders.metal */,
+				741FCBCE2EEB551E000199C7 /* ParticleCompute.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		741FCBD42EEB551E000199C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBD02EEB551E000199C7 /* BreathingViewModel.swift */,
+				741FCBD12EEB551E000199C7 /* MandalaViewModel.swift */,
+				741FCBD22EEB551E000199C7 /* ParticleViewModel.swift */,
+				741FCBD32EEB551E000199C7 /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		741FCBD82EEB551E000199C7 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBD52EEB551E000199C7 /* CheckLink.swift */,
+				741FCBD62EEB551E000199C7 /* InternetViewController.swift */,
+				741FCBD72EEB551E000199C7 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		741FCBE32EEB551E000199C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBD82EEB551E000199C7 /* LoadingView */,
+				741FCBD92EEB551E000199C7 /* AdvancedParticleSandboxView.swift */,
+				741FCBDA2EEB551E000199C7 /* ASMRVisualizerView.swift */,
+				741FCBDB2EEB551E000199C7 /* BreathingGuideView.swift */,
+				741FCBDC2EEB551E000199C7 /* MainDashboardView.swift */,
+				741FCBDD2EEB551E000199C7 /* MandalaGeneratorView.swift */,
+				741FCBDE2EEB551E000199C7 /* MetalEffectsDemoView.swift */,
+				741FCBDF2EEB551E000199C7 /* MultiTouchView.swift */,
+				741FCBE02EEB551E000199C7 /* OnboardingView.swift */,
+				741FCBE12EEB551E000199C7 /* ParticleSandboxView.swift */,
+				741FCBE22EEB551E000199C7 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		741FCBEE2EEB551E000199C7 /* 20Neon Zen */ = {
+			isa = PBXGroup;
+			children = (
+				741FCBC12EEB551E000199C7 /* Extensions */,
+				741FCBC72EEB551E000199C7 /* Models */,
+				741FCBC92EEB551E000199C7 /* Modifiers */,
+				741FCBCC2EEB551E000199C7 /* Renderers */,
+				741FCBCF2EEB551E000199C7 /* Shaders */,
+				741FCBD42EEB551E000199C7 /* ViewModels */,
+				741FCBE32EEB551E000199C7 /* Views */,
+				741FCBE42EEB551E000199C7 /* AppDelegate.swift */,
+				741FCBE52EEB551E000199C7 /* Assets.xcassets */,
+				741FCBE62EEB551E000199C7 /* ContentView.swift */,
+				741FCBE72EEB551E000199C7 /* Info.plist */,
+				741FCBE92EEB551E000199C7 /* LaunchScreen.storyboard */,
+				741FCBEB2EEB551E000199C7 /* Main.storyboard */,
+				741FCBEC2EEB551E000199C7 /* SceneDelegate.swift */,
+				741FCBED2EEB551E000199C7 /* ViewController.swift */,
+			);
+			path = "20Neon Zen";
+			sourceTree = "<group>";
+		};
+		74CAB0F22EEAA8B60022F17B = {
+			isa = PBXGroup;
+			children = (
+				741FCBEE2EEB551E000199C7 /* 20Neon Zen */,
+				74CAB0FC2EEAA8B60022F17B /* Products */,
+				C3D3869548DAF52182E54A31 /* Pods */,
+				AEE4278C2E4613A3E95E847A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74CAB0FC2EEAA8B60022F17B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CAB0FB2EEAA8B60022F17B /* 20Neon Zen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE4278C2E4613A3E95E847A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E91C8148D7DB805EF9AFB9 /* Pods_20Neon_Zen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D3869548DAF52182E54A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57981292A7517BDBFEA2E2B4 /* Pods-20Neon Zen.debug.xcconfig */,
+				1BECE0C3926042F4881CA463 /* Pods-20Neon Zen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74CAB0FA2EEAA8B60022F17B /* 20Neon Zen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CAB10E2EEAA8B80022F17B /* Build configuration list for PBXNativeTarget "20Neon Zen" */;
+			buildPhases = (
+				BD5486BF066162862FBB2220 /* [CP] Check Pods Manifest.lock */,
+				74CAB0F72EEAA8B60022F17B /* Sources */,
+				74CAB0F82EEAA8B60022F17B /* Frameworks */,
+				74CAB0F92EEAA8B60022F17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20Neon Zen";
+			productName = "20Neon Zen";
+			productReference = 74CAB0FB2EEAA8B60022F17B /* 20Neon Zen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74CAB0F32EEAA8B60022F17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					74CAB0FA2EEAA8B60022F17B = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 74CAB0F62EEAA8B60022F17B /* Build configuration list for PBXProject "20Neon Zen" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74CAB0F22EEAA8B60022F17B;
+			productRefGroup = 74CAB0FC2EEAA8B60022F17B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74CAB0FA2EEAA8B60022F17B /* 20Neon Zen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74CAB0F92EEAA8B60022F17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741FCC0F2EEB551E000199C7 /* Assets.xcassets in Resources */,
+				741FCC112EEB551E000199C7 /* LaunchScreen.storyboard in Resources */,
+				741FCC122EEB551E000199C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD5486BF066162862FBB2220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20Neon Zen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CAB0F72EEAA8B60022F17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741FCBEF2EEB551E000199C7 /* Color+Hex.swift in Sources */,
+				741FCBF02EEB551E000199C7 /* ASMRTrigger.swift in Sources */,
+				741FCBF12EEB551E000199C7 /* BreathingExercise.swift in Sources */,
+				741FCBF22EEB551E000199C7 /* MandalaPattern.swift in Sources */,
+				741FCBF32EEB551E000199C7 /* Particle.swift in Sources */,
+				741FCBF42EEB551E000199C7 /* ZenSession.swift in Sources */,
+				741FCBF52EEB551E000199C7 /* NeonGlow.swift in Sources */,
+				741FCBF62EEB551E000199C7 /* MetalParticleSystem.swift in Sources */,
+				741FCBF72EEB551E000199C7 /* MetalRenderer.swift in Sources */,
+				741FCBF82EEB551E000199C7 /* NeonShaders.metal in Sources */,
+				741FCBF92EEB551E000199C7 /* ParticleCompute.metal in Sources */,
+				741FCBFA2EEB551E000199C7 /* BreathingViewModel.swift in Sources */,
+				741FCBFB2EEB551E000199C7 /* MandalaViewModel.swift in Sources */,
+				741FCBFC2EEB551E000199C7 /* ParticleViewModel.swift in Sources */,
+				741FCBFD2EEB551E000199C7 /* SessionViewModel.swift in Sources */,
+				741FCBFE2EEB551E000199C7 /* CheckLink.swift in Sources */,
+				741FCBFF2EEB551E000199C7 /* InternetViewController.swift in Sources */,
+				741FCC002EEB551E000199C7 /* LoaderViewController.swift in Sources */,
+				741FCC012EEB551E000199C7 /* AdvancedParticleSandboxView.swift in Sources */,
+				741FCC022EEB551E000199C7 /* ASMRVisualizerView.swift in Sources */,
+				741FCC032EEB551E000199C7 /* BreathingGuideView.swift in Sources */,
+				741FCC042EEB551E000199C7 /* MainDashboardView.swift in Sources */,
+				741FCC052EEB551E000199C7 /* MandalaGeneratorView.swift in Sources */,
+				741FCC062EEB551E000199C7 /* MetalEffectsDemoView.swift in Sources */,
+				741FCC072EEB551E000199C7 /* MultiTouchView.swift in Sources */,
+				741FCC082EEB551E000199C7 /* OnboardingView.swift in Sources */,
+				741FCC092EEB551E000199C7 /* ParticleSandboxView.swift in Sources */,
+				741FCC0A2EEB551E000199C7 /* SettingsView.swift in Sources */,
+				741FCC0B2EEB551E000199C7 /* AppDelegate.swift in Sources */,
+				741FCC0C2EEB551E000199C7 /* ContentView.swift in Sources */,
+				741FCC0D2EEB551E000199C7 /* SceneDelegate.swift in Sources */,
+				741FCC0E2EEB551E000199C7 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		741FCBE92EEB551E000199C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741FCBE82EEB551E000199C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		741FCBEB2EEB551E000199C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741FCBEA2EEB551E000199C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74CAB10F2EEAA8B80022F17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57981292A7517BDBFEA2E2B4 /* Pods-20Neon Zen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20Neon Zen/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RealZen Neon";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app needs access to the photo library to save mandalas";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.r3dlz0n6h;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74CAB1102EEAA8B80022F17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BECE0C3926042F4881CA463 /* Pods-20Neon Zen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20Neon Zen/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RealZen Neon";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app needs access to the photo library to save mandalas";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.r3dlz0n6h;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74CAB1112EEAA8B80022F17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74CAB1122EEAA8B80022F17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74CAB0F62EEAA8B60022F17B /* Build configuration list for PBXProject "20Neon Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CAB1112EEAA8B80022F17B /* Debug */,
+				74CAB1122EEAA8B80022F17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CAB10E2EEAA8B80022F17B /* Build configuration list for PBXNativeTarget "20Neon Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CAB10F2EEAA8B80022F17B /* Debug */,
+				74CAB1102EEAA8B80022F17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74CAB0F32EEAA8B60022F17B /* Project object */;
+}
